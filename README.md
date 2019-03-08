@@ -73,3 +73,13 @@ python -m ipykernel install --user --name [virtualEnv] --display-name "[displayK
 ```
 jupyter notebook --ip=[ipAddress]
 ```
+
+## CUDA 관련 오류 뜰 때 
+InternalError: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY: out of memory; total memory reported: 8338604032
+```
+$ nvidia-smi
+```
+nvidia-smi에서 작동하는 프로세스 종료
+```
+$ kill -9 [PID]
+```
