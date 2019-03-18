@@ -83,3 +83,9 @@ nvidia-smi에서 작동하는 프로세스 종료
 ```
 $ kill -9 [PID]
 ```
+
+### README에 Image 파일 올리기
+- ![이미지이름](./이미지가 있는 폴더/이미지이름.형식)
+```
+![linear](./Study_HW/deep_hw2_Mnist_Boj/linear.png)
+```
