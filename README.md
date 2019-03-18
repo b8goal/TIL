@@ -89,3 +89,23 @@ $ kill -9 [PID]
 ```
 ![linear](./Study_HW/deep_hw2_Mnist_Boj/linear.png)
 ```
+
+## Conda 가상 환경 만들기
+```
+conda create -n name python=x.x tensorflow-gpu
+```
+
+## Conda 가상환경 확인하기
+```
+conda info --envs
+```
+
+## Conda 가상 환경 삭제하기
+```
+conda remove --name tensorflow35 --all
+```
+
+## Conda 패키지 설치 안될때 pip으로 환경설정해서 설치하기
+```
+sudo pip3 install --target=/home/pirl/anaconda3/envs/tf1/lib/python2.7/site-packages 패키지 이름
+```
