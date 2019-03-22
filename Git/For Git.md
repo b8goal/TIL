@@ -39,5 +39,5 @@ git reset HEAD CONTRIBUTING.md
 // 파일들의 상태를 확인한다.
 git status
 ```
-
+ 
 ### 끝 
