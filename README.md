@@ -20,7 +20,7 @@ tf.layers.dense(
     bias_constraint=None,
     trainable=True,
     name=None,
-    reuse=None
+    reuse=None 
 )
 ```
 
