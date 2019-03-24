@@ -18,7 +18,7 @@ git remote remove origin
 git remote add origin https://github.com/playauto/리포지토리명 
 ```
 
-### Git add 취소하기 (파일 상태를 Unstage로 변경하기)
+## Git add 취소하기 (파일 상태를 Unstage로 변경하기)
 - 아래와 같이 실수로 git add * 명령을 사용해 모든 파일을 staging Area에 넣은경우
 - Staging Area(git add 명령 수행한 후의 상태)에 넣은 파일을 빼고 싶을 때
 
@@ -40,8 +40,8 @@ git reset HEAD CONTRIBUTING.md
 git status
 ```
 
-### Git commit 취소하기
-#### commit 취소하기
+## Git commit 취소하기
+### commit 취소하기
 - 완료한 commit을 취소해야할 경우
 	- 너무 일찍 commit한 경우
 	- 어떤 파일을 빼먹고 coomit한 경우 이때, git reset HEAD^ 명령어를 이용해 git commit을 취소한다.
