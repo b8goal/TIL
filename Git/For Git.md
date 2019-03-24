@@ -39,5 +39,23 @@ git reset HEAD CONTRIBUTING.md
 // 파일들의 상태를 확인한다.
 git status
 ```
- 
+
+### Git commit 취소하기
+#### commit 취소하기
+- 완료한 commit을 취소해야할 경우
+	- 너무 일찍 commit한 경우
+	- 어떤 파일을 빼먹고 coomit한 경우 이때, git reset HEAD^ 명령어를 이용해 git commit을 취소한다.
+```
+// coomit 목록 확인
+git log
+
+// [방법 1] commit을 취소하고 해당 파일들은 staged 상태로 워킹 디렉터리에 보존
+$ git reset --soft HEAD^
+// [방법 2] commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터리에 보존
+$ git reset --mixed HEAD^ // 기본 옵션
+$ git reset HEAD^ // 위와 동일
+$ git reset HEAD~2 // 마지막 2개의 commit을 취소
+// [방법 3] commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉터리에서 삭제
+$ git reset --hard HEAD^
+```
 ### 끝 
