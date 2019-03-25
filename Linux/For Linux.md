@@ -18,4 +18,4 @@ logout (또는 exit)
 
 su -c 'apt-get update'
 // root 권한으로 하나의 명령만 실행한다
-```
+``` 
