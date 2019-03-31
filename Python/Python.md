@@ -5,3 +5,10 @@ text = f.read()
 print(text)
 ```
 	
+## 딕셔너리 key에 value를 리스트로 update하기
+```
+if key not in dictionary:
+	dictionary[key] = [val]
+else:
+	dictionary[key].append(val)
+```
