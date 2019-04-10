@@ -41,7 +41,7 @@ source activate tf
 ```
 
 ### 텐서플로 Device 환경 확인
-```
+```py
 from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 ```
