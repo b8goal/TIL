@@ -28,3 +28,8 @@ su -c 'apt-get update'
 apt-get install python-pip
 apt-get install python3-pip
 ```
+
+## 리눅스에서 git 설치
+```
+apt-get install git
+```
