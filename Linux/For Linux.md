@@ -33,8 +33,3 @@ apt-get install python3-pip
 ```bash
 apt-get install git
 ```
-
-## vi 에디터 설치
-```bash
-sudo apt-get install vim
-```
