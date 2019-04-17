@@ -1,6 +1,6 @@
 ## su (switch user) 명령어
 - 현재 계정을 로그아웃 하지 않고 다른 계정으로 전환하는 명령어
-```
+```bash
 su
 // su [user_name], su root 사용자로 변경 -> root 암호를 임력해야 한다
 
@@ -30,6 +30,11 @@ apt-get install python3-pip
 ```
 
 ## 리눅스에서 git 설치
-```
+```bash
 apt-get install git
+```
+
+## vi 에디터 설치
+```bash
+sudo apt-get install vim
 ```
