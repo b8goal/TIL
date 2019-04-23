@@ -50,11 +50,12 @@ tar -cjf my_file.tar.gz2 myile.txt myfile.dat
  - -z : gzip 사용(tar.gz 파일)
  - -j : bzip 사용(tar.gz2 파일)
 
-## 특정 디렉토리에 있는 파일을 압축
+## 특정 디렉토리에 있는 파일을 압축하기
  - ~/my_dr 디렉토에 있는 txt 파일을 압축
 
 ```
 tar -czf myfle.tar.gz ~/my_dir/*.txt
+```
  - ~my_dir 디렉토리로 간 후, txt파일을 압축
 ```
 tar -czf myfile.tar.gz -C ~/my_dir *.txt
@@ -66,7 +67,7 @@ tar -czf myfile.tar.gz -C ~/my_dir *.txt
  - -v : 파일명 이외에 오양 등 좀 더 자세한 정보를 보고 싶다면 -v 옵션을 추가(verbose)
 
 ## 압축 풀기
- - -x : 압축풀
+ - -x : 압축풀기
 ```
 tar -xzf my_dir.tar.gz
 ```
