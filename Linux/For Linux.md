@@ -81,3 +81,8 @@ tar -xzf my_dir.tar.gz -C ~/my_dir_tmp
 chmod -R [8bit Permission] [file name or folder name]
 ```
 
+## shell에서 ssh로 서버 접속하기
+```
+ssh -p 포트번호 사용자명@ip 주소
+```
+
