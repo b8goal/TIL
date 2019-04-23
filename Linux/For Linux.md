@@ -45,8 +45,8 @@ tar -cf my_file.tar myfile.txt myile.dat
  - 용량 절약을 위해 gzip 압축이나 bzip 압축을 추가하고 싶다면 아래와 같이 -z 또는 -j 옵션을 사용하자.
 ```
 tar -czf my_file.tar.gz myfile.txt myfile.dat
-tar -cjf my_file.tar,gz2 myile.txt myfile.dat
-
+tar -cjf my_file.tar.gz2 myile.txt myfile.dat
+```
  - -z : gzip 사용(tar.gz 파일)
  - -j : bzip 사용(tar.gz2 파일)
 
@@ -55,10 +55,10 @@ tar -cjf my_file.tar,gz2 myile.txt myfile.dat
 
 ```
 tar -czf myfle.tar.gz ~/my_dir/*.txt
-```
  - ~my_dir 디렉토리로 간 후, txt파일을 압축
 ```
 tar -czf myfile.tar.gz -C ~/my_dir *.txt
+```
 
  - -C [디렉토리] : 디렉토리 변경(압축 경로 지정)
 
