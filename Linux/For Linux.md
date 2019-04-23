@@ -76,3 +76,8 @@ tar -xzf my_dir.tar.gz
 tar -xzf my_dir.tar.gz -C ~/my_dir_tmp
 ```
 
+## chmod 하위 파일과 폴더들에게 한번에 적용하기
+```
+chmod -R [8bit Permission] [file name or folder name]
+```
+
